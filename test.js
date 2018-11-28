@@ -11,4 +11,6 @@ describe('nothing to do', () => {
 
 test.run(console.DEBUG)
 
-process.exit()
+if (!process.env.DEV) {
+    process.exit()
+}

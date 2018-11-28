@@ -12,7 +12,7 @@ function main(sources) {
     return {
         DOM: count$.map(count =>
             div('.counter', [
-                h2('#abc', 'cyclejs Test'),
+                h2('#abc', 'cyclejs demo'),
                 'Count: ' + count,
                 button('.add', 'Add')
             ])
